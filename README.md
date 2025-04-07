@@ -1,3 +1,94 @@
+<<<<<<< HEAD
+# 🚀 HackToFuture 3.0 Repository Setup Guide
+#### To track your progress and collaborate effectively, every team must fork the official repository and follow the steps below.
+<br>
+
+# 🔱 Fork the Repository
+ #### Go to the GitHub page https://github.com/HackToFuture/HTF-XNN <br>
+  #### Click on the "Fork" button in the upper-right corner of the page.
+  #### Assign the repository name as "HTF - *<Team_Code>*".
+
+  <img align="center" width = "500" src = "https://docs.github.com/assets/cb-40742/mw-1440/images/help/repository/fork-button.webp" alt="fork image"/>
+  
+  
+  ```
+  Example :
+  <Team_Code> -> A09
+  Repository Name : HTF-A09
+```
+
+# 📥 Clone Your Forked Repository
+  #### Go to your forked repository on GitHub.
+  #### Click the green "Code" button, then click the clipboard icon to copy the URL.
+
+   <img align="center" width = "500" height="200" src = "https://docs.github.com/assets/cb-60499/mw-1440/images/help/repository/https-url-clone-cli.webp" alt="clone image"/>
+ 
+  #### Open your terminal and run the following git clone command to copy the repository to your local machine.
+  #### Replace *repository-url* with the URL of your forked repository.
+  ```
+  git clone <repository-url>
+```
+
+
+# 🛠️ Start working on your project
+#### Begin building your solution! Collaborate with your teammates and push changes regularly.
+
+# 📝 Commit Your Changes
+#### Track and save your progress using Git:
+#### Check the status of your changes
+   ```
+    git status
+ ```
+  
+
+  #### Use the git add command to stage the changes you want to commit
+  ```
+    git add .
+ ```
+      
+  #### Commit with a meaningful message
+  #### *Option 1* : Simple Commit Format (Beginner Friendly)
+  #### Use this if you're new to Git
+   ```
+    git commit -m "Your descriptive commit message"
+ ```
+#### *Option 2* : Conventional Commits (Recommended)
+#### Follow this format for more structured, professional commit history  
+```
+git commit -m "<type>(<scope>): <subject>"
+```
+| Type | Purpose |
+|----------|----------|
+| feat    | for a new feature for the user, not a new feature for build script. Such commit will trigger a release bumping a MINOR version    |
+| fix    | for a bug fix for the user, not a fix to a build script. Such commit will trigger a release bumping a PATCH version     |
+| perf    | for performance improvements. Such commit will trigger a release bumping a PATCH version    |
+| docs    | for changes to the documentation     |
+| test | for adding missing tests, refactoring tests; no production code change  |
+| style  | for formatting changes, missing semicolons, etc  |
+| refactor | for refactoring production code, e.g. renaming a variable  |
+| build | for updating build configuration, development tools or other changes irrelevant to the user|
+
+#### Scope: Area of change (e.g., api, ui, auth)
+#### Subject: One-line summary in present tense, no period at the end
+
+```
+Example: git commit -m "fix(button): fix submit button not working"
+```
+
+# 🚀 Push Your Changes
+  #### Send your local commits to GitHub:
+  ```
+    git push origin
+ ```
+# 🧠 Tips
+#### *Commit often* : Small, frequent commits help track progress and fix bugs easily.
+#### *Write clear messages* : Describe what you did in each commit.
+#### *Collaborate* : Make sure everyone in your team contributes.
+
+---
+
+**For any issues or doubts, reach out to the organizing team.** *Happy hacking!* 💻✨
+=======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,103 +125,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-### 📄 `IMPORTANT : Instructions for collaborators`
-
-
-# micSQL
-
-Welcome to the micSQL project! 🎉
-
-This repository follows a branch-based collaboration model. Each contributor works on their **own branch(your name)** and rebases their work onto `main` before merging.
-You can find your branch name in the branch section of this github repo.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-> Make sure your GitHub SSH key is set up and added to your GitHub account.
-
-```bash
-git clone git@github.com:Shishir-Hegde/micSQL.git
-cd micSQL
-```
-
----
-
-### 2. Checkout Your Feature Branch
-
-Each collaborator has a separate branch to work on.
-
-```bash
-git checkout <your-branch-name>
-```
-
-Replace `your-branch-name` with the branch assigned to you  
-(e.g., `rahul`, `jayant`, `tejas`, `shishir` , etc.)
-
----
-
-## 🔨 Working on Your Branch
-
-### Make and Commit Your Changes
-
-```bash
-# Make changes to the code
-git add .
-git commit -m "Your meaningful commit message"
-```
-
-### Push Your Changes
-
-```bash
-git push -u origin <your-branch-name>
-```
-
----
-
-## 🔄 Rebasing with `main` (Before Merging)
-
-To ensure your work is up to date with the latest `main`:
-
-```bash
-git checkout your-branch-name
-git fetch origin
-git rebase origin/main
-```
-
-If there are conflicts:
-
-```bash
-# Resolve conflicts manually
-git add .
-git rebase --continue
-```
-
-Then force push your updated branch:
-
-```bash
-git push --force-with-lease
-```
-
----
-
-## 🚀 Merging to Main
-
-Once your feature is complete and rebased:
-
-1. Go to the GitHub repo.
-2. Create a **Pull Request** from `your-branch-name` → `main`.
-3. Get a review and approval.
-4. Merge once checks pass.
-
----
-
-## ✅ Collaboration Rules
-
-- Do **not** commit directly to `main`.
-- Always work on your **assigned feature branch**.
-- **Rebase** before opening a pull request.
-- Use **clear, descriptive commit messages**.
+>>>>>>> f5b5d04 (Initial commit from Create Next App)
