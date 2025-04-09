@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 HackToFuture 3.0 Repository Setup Guide
 #### To track your progress and collaborate effectively, every team must fork the official repository and follow the steps below.
 <br>
