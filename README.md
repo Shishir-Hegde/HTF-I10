@@ -1,4 +1,4 @@
-
+(The voice diarization model repo : [https://github.com/jayanthhs05/SpeakerAuth]([www.google.com](https://github.com/jayanthhs05/SpeakerAuth)) 
 # 🚀 HackToFuture 3.0 Repository Setup Guide
 #### To track your progress and collaborate effectively, every team must fork the official repository and follow the steps below.
 <br>
